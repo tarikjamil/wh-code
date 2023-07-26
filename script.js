@@ -241,7 +241,7 @@ $(".navbar--menu-trigger").click(function () {
 $(".navbar-link.is-dropdown").on("click", function () {
   // Close other accordions when opening new one
   if (!$(this).hasClass("open")) {
-    $(".navbar-dropdown-list.open").click();
+    $(".navbar-link.is-dropdown.open").click();
   }
   // Save the sibling of the toggle we clicked on
   let sibling = $(this).siblings(".navbar-dropdown-list");
