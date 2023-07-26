@@ -13,3 +13,7 @@
 .navbar.is--scrolled .navbar--logo-link {
   color: #4e2525;
 }
+
+[animation="parallax-hero"] {
+  height: 120%;
+}
