@@ -26,3 +26,7 @@
 .navbar-link.is-dropdown.open .icon-8 {
   rotate: 90deg;
 }
+
+.navbar-dropdown-list {
+  height: 0px;
+}
