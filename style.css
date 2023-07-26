@@ -14,6 +14,7 @@
   color: #4e2525;
 }
 
-[animation="parallax-hero"] {
+[animation="parallax-hero"],
+[animation="parallax"] {
   height: 120%;
 }
