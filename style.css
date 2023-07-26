@@ -22,3 +22,7 @@
 .navbar.is--scrolled {
   background-color: white;
 }
+
+.navbar-link.is-dropdown.open .icon-8 {
+  rotate: 90deg;
+}
