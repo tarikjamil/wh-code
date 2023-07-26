@@ -18,3 +18,7 @@
 [animation="parallax"] {
   height: 120%;
 }
+
+.navbar.is--scrolled {
+  background-color: white;
+}
