@@ -2,17 +2,14 @@
   opacity: 0;
 }
 
+.split-line {
+  overflow: hidden;
+}
+
 .navbar.is--scrolled {
-  background-color: #fff;
+  background-color: white;
 }
 
-@media (max-width: 991px) {
-}
-
-.splide__track {
-  overflow: visible;
-}
-
-.splide__slide {
-  align-self: stretch;
+.navbar.is--scrolled .navbar--logo-link {
+  color: #4e2525;
 }
